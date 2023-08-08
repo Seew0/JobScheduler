@@ -1,0 +1,9 @@
+version: "1"
+
+services:
+  scheduler:
+    build: .
+    ports:
+      - 8080:8080
+    restart: always
+
